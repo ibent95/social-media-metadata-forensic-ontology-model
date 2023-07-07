@@ -9,6 +9,7 @@
      xmlns:opla-sd="http://ontologydesignpatterns.org/opla-sd#"
      xmlns:social-media-metadata-forensic-ontology-model="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model/1.0.0"/>
         <rdfs:comment xml:lang="en">A research for Model of Social Media Metadata Forensic</rdfs:comment>
     </owl:Ontology>
     
@@ -46,6 +47,638 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#administrator -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#administrator">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#advocate_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#advocate_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#as_account_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#as_account_in">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#author_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#author_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#bank_account_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#bank_account_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#check_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#check_in">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#co_author -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#co_author">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#comment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#comment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#current_work -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#current_work">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#dislike -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#dislike">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#education -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#education">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#eyewitness_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#eyewitness_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#family_relations -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#family_relations">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#followed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#followed">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#geolocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#geolocation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#going_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#going_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_additional_item -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_additional_item">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_advocate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_advocate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_attended -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_attended">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_author -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_author">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_bank_account -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_bank_account">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_blocked -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_blocked">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_brother -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_brother">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_cousin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_cousin">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_criminal_profile -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_criminal_profile">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_device -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_device">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_eyewitness -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_eyewitness">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_father -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_father">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_husband -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_husband">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_juror -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_juror">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_mother -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_mother">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_officer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_officer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_political_status -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_political_status">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_religion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_religion">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_sister -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_sister">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_wife -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_wife">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_witness -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_witness">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#hash_value -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#hash_value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#inspector_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#inspector_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#interested_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#interested_in">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#is_closed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#is_closed">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#is_open -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#is_open">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#is_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#is_part_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#is_private -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#is_private">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#is_public -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#is_public">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#juror_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#juror_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#like -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#like">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#location -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#location">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#member -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#member">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#mentioned -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#mentioned">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#mentioned_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#mentioned_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#officer_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#officer_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#ownedby -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#ownedby">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#owns -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#owns">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#participate_same_riot -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#participate_same_riot">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#past_work -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#past_work">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#photo_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#photo_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#published_emotions -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#published_emotions">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#published_status -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#published_status">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#same_organisation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#same_organisation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#share_via -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#share_via">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#stored_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#stored_in"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#subscribe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#subscribe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#tagged -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#tagged">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#tagged_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#tagged_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#talking_about -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#talking_about">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#transferred_amount -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#transferred_amount">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#transferred_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#transferred_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#transferred_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#transferred_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#uses_app -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#uses_app">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#vality_url -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#vality_url">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#video_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#video_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#visited -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#visited">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#witness_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#witness_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#directory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#directory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_app -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#has_app">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#parent_directory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#parent_directory"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -62,10 +695,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Android -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Android">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Smartphone"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Apps -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Apps">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Facebook"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Audios -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Audios">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#External"/>
     </owl:Class>
     
 
@@ -75,11 +724,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Blogger">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Social_Profile"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">159.92374912398253</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">122.9745473812276</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -90,11 +735,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Cellphone">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#SmallScaleDeviceForensics"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">72.70142430780237</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">132.81693986134283</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -113,11 +754,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Classical_Crime">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Crime_Categories"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">243.47572886227064</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">94.01434978006925</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -144,11 +781,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Crime">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#SocialMediaEvidence"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">88.24310651689794</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">89.17122676878299</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -159,11 +792,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Crime-Case-Solving">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#SocialMediaEvidence"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">149.88427425470195</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">320.2794004700662</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -174,11 +803,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Crime_Categories">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Crime"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">599.8368640860222</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90.24641920127232</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -189,11 +814,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Crimes_Archiva">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Crime"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">156.8009107115795</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">68.38219115680822</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -204,11 +825,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Criminal_Profile">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Person"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.771683633668497</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.506314098235514</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -235,11 +852,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Cyber_Crime">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Crime_Categories"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">72.76983906721725</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">131.47105872238777</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -257,11 +870,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#DeviceForensic">
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">263.2055589345273</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">126.42286894339134</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -272,11 +881,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Digital_Evidence">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Crime-Case-Solving"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">620.2416990153722</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">239.64174935347054</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -287,11 +892,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#EmbeddedDevice">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#SmallScaleDeviceForensics"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">94.95254821303882</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.74443906416262</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -302,12 +903,16 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Evidence_for_court">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Crime-Case-Solving"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">260.5255956919886</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">105.04192983105479</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#External -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#External">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Android"/>
     </owl:Class>
     
 
@@ -317,11 +922,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Facebook">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Social_Profile"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">241.1967911697869</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">136.24850762577051</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -372,11 +973,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#GPSDevice">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#SmallScaleDeviceForensics"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">45.59567022398752</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">180.6136236011208</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -387,11 +984,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Google">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Social_Profile"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">193.512920965822</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">263.88592475491475</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -401,6 +994,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Groups">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Facebook"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#IOS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#IOS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Smartphone"/>
     </owl:Class>
     
 
@@ -418,12 +1019,16 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Instagram">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Social_Profile"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">125.6287392028183</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58.91503572024254</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Internal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Internal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Android"/>
     </owl:Class>
     
 
@@ -465,11 +1070,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Linkedin">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Social_Profile"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">171.89992660941783</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">281.27216129471594</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -496,11 +1097,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#MemoryCard">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#SmallScaleDeviceForensics"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">253.8375582447937</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">37.87882556498275</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -514,16 +1111,20 @@
     
 
 
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Others -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Others">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#External"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#PDA -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#PDA">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#SmallScaleDeviceForensics"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">222.47755101584306</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">41.82216465923304</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -542,11 +1143,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Person">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#SocialMediaEvidence"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">206.87181311458565</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.657419615495996</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -564,6 +1161,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Photos_Metadata">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Facebook"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Pictures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Pictures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#External"/>
     </owl:Class>
     
 
@@ -589,11 +1194,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Potential_Suspect">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Crime-Case-Solving"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80.21647292482449</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">191.20105841357514</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -612,11 +1213,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Professional_Profile">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Person"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">81.2859750974499</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">176.36909260009207</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -627,11 +1224,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#SIMCard">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#SmallScaleDeviceForensics"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">102.08329385827118</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">203.23273549852016</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -650,11 +1243,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#SmallScaleDeviceForensics">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#DeviceForensic"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">440.3325561311417</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">470.30806554806014</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -665,11 +1254,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Smartphone">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#SmallScaleDeviceForensics"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.51021866470139</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">182.89853276501944</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -679,11 +1264,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#SocialMediaEvidence">
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30.49275559648414</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">168.09952927368062</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -694,11 +1275,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Social_Profile">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Person"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">282.2366605259709</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">34.72686627674625</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -717,11 +1294,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#TabletComputer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#SmallScaleDeviceForensics"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">92.63493916031102</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">92.55702756815226</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -740,11 +1313,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Twitter">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Social_Profile"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">62.82129811806268</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">270.0888055767208</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -755,11 +1324,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#USBDrive">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#SmallScaleDeviceForensics"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.97441743301683</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">247.8582342355249</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
     
@@ -773,22 +1338,500 @@
     
 
 
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Videos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Videos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#External"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Youtube -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Youtube">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Social_Profile"/>
         <opla-sd:entityPosition>
-            <rdf:Description>
-                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.601803987045586</opla-sd:entityPositionX>
-                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">116.3930705150666</opla-sd:entityPositionY>
-                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-            </rdf:Description>
+            <rdf:Description/>
         </opla-sd:entityPosition>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#com.facebook.katana -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#com.facebook.katana">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#com.facebook.lite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#com.facebook.lite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#com.facebook.orca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#com.facebook.orca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#userdata"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#media -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#media">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#userdata"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#system">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#userdata"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#userdata -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#userdata">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Internal"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#BRANDED_THINGS_SALE_POINT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#BRANDED_THINGS_SALE_POINT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Groups"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Garry_Swihart -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Garry_Swihart">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Professional_Profile"/>
+        <as_account_in rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#garry.swihart"/>
+        <owns rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Samsung_Galaxy_J1_Ace"/>
+        <owns rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#garry.swihart"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Norah_Nolan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Norah_Nolan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Professional_Profile"/>
+        <as_account_in rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#norah.nolan.10"/>
+        <owns rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Samsung_Galaxy_Mega_2"/>
+        <owns rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#norah.nolan.10"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Samsung_Galaxy_J1_Ace -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Samsung_Galaxy_J1_Ace">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Smartphone"/>
+        <has_app rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Facebook</has_app>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Samsung_Galaxy_Mega_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Samsung_Galaxy_Mega_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Smartphone"/>
+        <has_app rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Facebook</has_app>
+        <has_app rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Messenger</has_app>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#accounts.db -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#accounts.db">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#system"/>
+        <stored_in rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Samsung_Galaxy_J1_Ace"/>
+        <directory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</directory>
+        <parent_directory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">users</parent_directory>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#authentication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#authentication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#com.facebook.katana"/>
+        <stored_in rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Samsung_Galaxy_J1_Ace"/>
+        <directory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">com.facebook.katana</directory>
+        <parent_directory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">app_light_prefs</parent_directory>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#b9cd6881-87d6e194e3f5207c.tmp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#b9cd6881-87d6e194e3f5207c.tmp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#com.facebook.katana"/>
+        <stored_in rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Samsung_Galaxy_J1_Ace"/>
+        <parent_directory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">app_uploads</parent_directory>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/img_j1acevelte.dd/vol_vol30/data/com.facebook.katana/app_uploads/77b1c610-2fb2-4000-9e4c-8a0772cd2e92/b9cd6881-87d6e194e3f5207c.tmp		2023-04-25 18:24:49 ICT	2023-04-25 18:24:51 ICT	2023-04-25 18:24:48 ICT	2023-04-25 18:24:48 ICT	138043		ibent95</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#contacts_db2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#contacts_db2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#com.facebook.katana"/>
+        <stored_in rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Samsung_Galaxy_J1_Ace"/>
+        <directory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">databases</directory>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#da576fdc-859d3a7830477881.tmp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#da576fdc-859d3a7830477881.tmp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#com.facebook.katana"/>
+        <stored_in rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Samsung_Galaxy_J1_Ace"/>
+        <parent_directory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">app_uploads</parent_directory>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/img_j1acevelte.dd/vol_vol30/data/com.facebook.katana/app_uploads/0ca5cc65-398c-424b-8eb4-f7c7d3d5323f/da576fdc-859d3a7830477881.tmp		2023-04-18 00:27:50 ICT	2023-04-18 00:27:51 ICT	2023-04-18 00:27:48 ICT	2023-04-18 00:27:48 ICT	87323		ibent95</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#e317a6c1-4b8366dab530f866.tmp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#e317a6c1-4b8366dab530f866.tmp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#com.facebook.katana"/>
+        <stored_in rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Samsung_Galaxy_J1_Ace"/>
+        <parent_directory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">app_uploads</parent_directory>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/img_j1acevelte.dd/vol_vol30/data/com.facebook.katana/app_uploads/5e16e44a-0476-4442-bfbe-db6a98345322/e317a6c1-4b8366dab530f866.tmp		2023-04-25 18:26:07 ICT	2023-04-25 18:26:08 ICT	2023-04-25 18:26:05 ICT	2023-04-25 18:26:05 ICT	93161		ibent95</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#e325be42-4b8366dab53f0fe7.tmp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#e325be42-4b8366dab53f0fe7.tmp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#com.facebook.katana"/>
+        <stored_in rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Samsung_Galaxy_J1_Ace"/>
+        <parent_directory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">app_uploads</parent_directory>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/img_j1acevelte.dd/vol_vol30/data/com.facebook.katana/app_uploads/b6f7901f-58a7-4479-ad92-7094b990fb6e/e325be42-4b8366dab53f0fe7.tmp		2023-04-25 18:19:23 ICT	2023-04-25 18:19:25 ICT	2023-04-25 18:19:22 ICT	2023-04-25 18:19:22 ICT	50957		ibent95</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#e333d5c3-4b8366dab54d2768.tmp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#e333d5c3-4b8366dab54d2768.tmp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#com.facebook.katana"/>
+        <stored_in rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Samsung_Galaxy_J1_Ace"/>
+        <parent_directory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">app_uploads</parent_directory>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/img_j1acevelte.dd/vol_vol30/data/com.facebook.katana/app_uploads/b6f7901f-58a7-4479-ad92-7094b990fb6e/e333d5c3-4b8366dab54d2768.tmp		2023-04-25 18:19:28 ICT	2023-04-25 18:19:29 ICT	2023-04-25 18:19:26 ICT	2023-04-25 18:19:26 ICT	54891		ibent95</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#e341ed44-4b8366dab55b3ee9.tmp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#e341ed44-4b8366dab55b3ee9.tmp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#com.facebook.katana"/>
+        <stored_in rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Samsung_Galaxy_J1_Ace"/>
+        <parent_directory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">app_uploads</parent_directory>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/img_j1acevelte.dd/vol_vol30/data/com.facebook.katana/app_uploads/b6f7901f-58a7-4479-ad92-7094b990fb6e/e341ed44-4b8366dab55b3ee9.tmp		2023-04-25 18:19:33 ICT	2023-04-25 18:19:35 ICT	2023-04-25 18:19:31 ICT	2023-04-25 18:19:31 ICT	56033		ibent95</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#e477f25a-4b8366dab69143ff.tmp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#e477f25a-4b8366dab69143ff.tmp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#com.facebook.katana"/>
+        <stored_in rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Samsung_Galaxy_J1_Ace"/>
+        <parent_directory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">app_uploads</parent_directory>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/img_j1acevelte.dd/vol_vol30/data/com.facebook.katana/app_uploads/b6f7901f-58a7-4479-ad92-7094b990fb6e/e477f25a-4b8366dab69143ff.tmp		2023-04-25 18:19:38 ICT	2023-04-25 18:19:40 ICT	2023-04-25 18:19:37 ICT	2023-04-25 18:19:37 ICT	97695		ibent95</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#fblite_databases.db -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#fblite_databases.db">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#com.facebook.lite"/>
+        <stored_in rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Samsung_Galaxy_Mega_2"/>
+        <directory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">databases</directory>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#garry.swihart -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#garry.swihart">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Facebook"/>
+        <followed rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#norah.nolan.10"/>
+        <member rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#BRANDED_THINGS_SALE_POINT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#local_media_db -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#local_media_db">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#com.facebook.katana"/>
+        <stored_in rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Samsung_Galaxy_J1_Ace"/>
+        <directory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">databases</directory>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#msys_database_100090534141448 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#msys_database_100090534141448">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#com.facebook.orca"/>
+        <stored_in rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Samsung_Galaxy_Mega_2"/>
+        <directory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">databases</directory>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#norah.nolan.10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#norah.nolan.10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Facebook"/>
+        <followed rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#garry.swihart"/>
+        <member rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#BRANDED_THINGS_SALE_POINT"/>
+        <member rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Branded_Bags_&amp;_Accessories"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#80697aea-5668632c680a6865.tmp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#80697aea-5668632c680a6865.tmp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#com.facebook.katana"/>
+        <stored_in rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Samsung_Galaxy_J1_Ace"/>
+        <parent_directory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">app_uploads</parent_directory>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/img_j1acevelte.dd/vol_vol30/data/com.facebook.katana/app_uploads/97e9339b-411b-439b-853b-6c882bf3429d/80697aea-5668632c680a6865.tmp		2023-04-25 18:21:46 ICT	2023-04-25 18:21:48 ICT	2023-04-25 18:21:45 ICT	2023-04-25 18:21:45 ICT	111983		ibent95</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Branded_Bags_&amp;_Accessories -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Branded_Bags_&amp;_Accessories">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Groups"/>
+        <administrator rdf:resource="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#garry.swihart"/>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">72.76983906721725</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">131.47105872238777</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">102.08329385827118</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">203.23273549852016</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">156.8009107115795</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">68.38219115680822</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">92.63493916031102</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">92.55702756815226</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">440.3325561311417</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">470.30806554806014</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">94.95254821303882</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.74443906416262</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">599.8368640860222</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90.24641920127232</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">193.512920965822</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">263.88592475491475</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.601803987045586</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">116.3930705150666</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">159.92374912398253</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">122.9745473812276</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">45.59567022398752</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">180.6136236011208</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">149.88427425470195</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">320.2794004700662</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">620.2416990153722</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">239.64174935347054</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">243.47572886227064</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">94.01434978006925</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.771683633668497</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.506314098235514</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">171.89992660941783</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">281.27216129471594</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">62.82129811806268</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">270.0888055767208</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">253.8375582447937</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">37.87882556498275</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.51021866470139</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">182.89853276501944</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">263.2055589345273</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">126.42286894339134</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">260.5255956919886</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">105.04192983105479</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.97441743301683</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">247.8582342355249</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">241.1967911697869</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">136.24850762577051</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80.21647292482449</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">191.20105841357514</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30.49275559648414</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">168.09952927368062</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">282.2366605259709</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">34.72686627674625</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">206.87181311458565</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.657419615495996</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">125.6287392028183</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58.91503572024254</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">81.2859750974499</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">176.36909260009207</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">222.47755101584306</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">41.82216465923304</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
     <rdf:Description>
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">110.06575874549819</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">460.2929100330306</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">72.70142430780237</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">132.81693986134283</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">88.24310651689794</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">89.17122676878299</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Garry_Swihart"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ibent95/ontologies/social-media-metadata-forensic-ontology-model#Norah_Nolan"/>
+        </owl:distinctMembers>
     </rdf:Description>
 </rdf:RDF>
 
